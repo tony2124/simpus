@@ -19,6 +19,17 @@
 <div class="sombra"></div>
 <br>
 <br>
+
+<div class="caja-texto-completa">
+	<div class="titulo-caja-texto">
+		Reingeniería
+	</div>
+</div>
+<hr class="clear">
+<img src="<?php print _get("webURL") ?>www/lib/images/desarrollo/reconstruccion.png">
+
+<div class="clear"></div>
+<p>&nbsp;</p>
 <div class="caja-texto-completa">
 	<div class="titulo-caja-texto">
 		Servicios de desarrollo de software

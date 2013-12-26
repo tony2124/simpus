@@ -121,9 +121,15 @@
 <a id="android_modal"  data-toggle="modal" href="<?php echo $this->themePath; ?>/views/modal_android.php" data-target="#MyModal">
 	<img data-placement="top" data-original-title="Android" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/android.jpg" ?>">
 </a>
-<a href=""><img data-placement="top" data-original-title="iOS" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/ios.jpg" ?>"></a>
-<a href=""><img data-placement="top" data-original-title="BlackBerry" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/bb.jpg" ?>"></a>
-<a href=""><img data-placement="top" data-original-title="Windows Phone" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/wp.jpg" ?>"></a>
+<a id="android_modal"  data-toggle="modal" href="<?php echo $this->themePath; ?>/views/modal_android.php" data-target="#MyModal">
+	<img data-placement="top" data-original-title="iOS" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/ios.jpg" ?>">
+</a>
+<a id="android_modal"  data-toggle="modal" href="<?php echo $this->themePath; ?>/views/modal_android.php" data-target="#MyModal">
+	<img data-placement="top" data-original-title="BlackBerry" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/bb.jpg" ?>">
+</a>
+<a id="android_modal"  data-toggle="modal" href="<?php echo $this->themePath; ?>/views/modal_android.php" data-target="#MyModal">
+	<img data-placement="top" data-original-title="Windows Phone" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/wp.jpg" ?>">
+</a>
 <div class="clear"></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -157,7 +163,7 @@
 				</div>
 				<h2>Software a la medida</h2>
 				<p>Aumenta la productividad y eficiencia de tu empresa con un software que tiene lo que tú necesitas... </p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 		<div class="separador-not"></div>
@@ -169,7 +175,7 @@
 				</div>
 				<h2>Sitios web</h2>
 				<p>Conoce como puedes usar la Internet para obtener más clientes o mejorar tu servicio hacia ellos... </p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 		<div class="separador-not"></div>
@@ -181,7 +187,7 @@
 				</div>
 				<h2>Reingeniería</h2>
 				<p>¿Tu empresa está creciendo y necesitas ordenar la información de tu negocio? Podemos rediseñarte tu sistema agregando nuevas características... </p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 	</div>
@@ -189,44 +195,45 @@
 		<div class="anuncio">
 			<div style="text-align: center">
 				<div class="thumb-wrapper">
-					<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="round-div"></a>
+					<a href="<?php print _get("webURL").'software/moviles' ?>" class="round-div"></a>
 					<img width="270" height="250" src="<?php print _get("webURL").'www/lib/images/comercial/appmovil.png' ?>" class="attachment-tc-thumb" alt="Snapshot_20130801_2">
 				</div>
 				<h2>Apps iOS</h2>
 				<p>Brinda a tus clientes servicios mediante la tecnología de Apple, poniendo a su disposición aplicaciones para iOS... </p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'wordpress' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 		<div class="separador-not"></div>
 		<div class="anuncio">
 			<div style="text-align: center">
 				<div class="thumb-wrapper">
-					<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="round-div"></a>
+					<a href="<?php print _get("webURL").'software/moviles' ?>" class="round-div"></a>
 					<img width="270" height="250" src="<?php print _get("webURL").'www/lib/images/comercial/apps-android.png' ?>" class="attachment-tc-thumb" alt="Snapshot_20130801_2">
 				</div>
 				<h2>Apps Android</h2>
 				<p>Actualízate y no te quedes fuera del mercado de aplicaciones móviles más grande en el mundo... </p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'software/moviles' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 		<div class="separador-not"></div>
 		<div class="anuncio">
 			<div style="text-align: center">
 				<div class="thumb-wrapper">
-					<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="round-div"></a>
+					<a href="<?php print _get("webURL").'software/moviles' ?>" class="round-div"></a>
 					<img width="270" height="250" src="<?php print _get("webURL").'www/lib/images/comercial/play-store.png' ?>" class="attachment-tc-thumb" alt="Snapshot_20130801_2">
 				</div>
 				<h2>Nuestras apps</h2>
 				<p>Hecha un vistazo a nuestras aplicaciones gratuitas en Google Play... </p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'software/moviles' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 	</div>
-	<div class="up" title=":: Tutoriales ::">
+
+<!--	<div class="up" title=":: Tutoriales ::">
 		<div class="anuncio">
 			<div style="text-align: center">
 				<div class="thumb-wrapper">
-					<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="round-div"></a>
+					<a href="<?php print _get("webURL").'wordpress' ?>" class="round-div"></a>
 					<img width="270" height="250" src="<?php print _get("webURL").'www/lib/images/comercial/java-1.png' ?>" class="attachment-tc-thumb" alt="Snapshot_20130801_2">
 				</div>
 				<h2>Java</h2>
@@ -238,27 +245,27 @@
 		<div class="anuncio">
 			<div style="text-align: center">
 				<div class="thumb-wrapper">
-					<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="round-div"></a>
+					<a href="<?php print _get("webURL").'wordpress' ?>" class="round-div"></a>
 					<img width="270" height="250" src="<?php print _get("webURL").'www/lib/images/comercial/android-1.png' ?>" class="attachment-tc-thumb" alt="Snapshot_20130801_2">
 				</div>
 				<h2>Móviles</h2>
 				<p>No te quedes atrás, anímate a programar tu celular o tableta con la plataforma Android...</p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'wordpress' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
 		<div class="separador-not"></div>
 		<div class="anuncio">
 			<div style="text-align: center">
 				<div class="thumb-wrapper">
-					<a href="<?php print _get("webURL").'software/desarrollo/medida' ?>" class="round-div"></a>
+					<a href="<?php print _get("webURL").'wordpress' ?>" class="round-div"></a>
 					<img width="270" height="250" src="<?php print _get("webURL").'www/lib/images/comercial/php-1.png' ?>" class="attachment-tc-thumb" alt="Snapshot_20130801_2">
 				</div>
 				<h2>PHP</h2>
 				<p>Resuelve tus dudas sobre programación web, hecha un vistazo a nuestro blog, si no encuentras la respuesta ¡ESCRÍBENOS!</p>
-				<a href="" class="btn btn-primary"> Saber más...</a>
+				<a href="<?php print _get("webURL").'wordpress' ?>" class="btn btn-primary"> Saber más...</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 
 <p style=" clear: both">&nbsp;</p>
