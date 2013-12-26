@@ -70,7 +70,7 @@
 					<div class="telefono-icon"></div>
 	  				<span class="titulo-direccion">TELÉFONOS:</span>
 	  				<p class="contacto-direccion">
-	  					<br>CEL: (044) 425 106 4590
+	  					<br>CEL: (044) 453 106 4590
 	  					<br>OFICINA: 01 425 592 5238
 	  				</p>
 	  				<br>

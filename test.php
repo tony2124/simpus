@@ -24,3 +24,4 @@ if(!isset($nombre) || !isset($email) || !isset($comentario) || $nombre==null || 
 	<p>No se ha podido enviar el mensaje porque no hemos podido validar el correo electrónico: <?php print  $_GET['email'] ?></p>
 </div>
 <?php } ?>
+

@@ -13,6 +13,8 @@
 	    $('#titulo').html(this.title); 
 	};
 
+	$("#android_modal").modal();
+
 	$(function(){
 		jQuery('.banner').camera({
 			height: "300px"
@@ -115,7 +117,10 @@
 <p>¿Quieres conocer más acerca de estás plataformas?</p>
 <p>Haz clic sobre ellas para que te informes sobre sus características principales</p>
 <p>&nbsp;</p>
-<a href=""><img data-placement="top" data-original-title="Android" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/android.jpg" ?>"></a>
+
+<a id="android_modal"  data-toggle="modal" href="<?php echo $this->themePath; ?>/views/modal_android.php" data-target="#MyModal">
+	<img data-placement="top" data-original-title="Android" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/android.jpg" ?>">
+</a>
 <a href=""><img data-placement="top" data-original-title="iOS" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/ios.jpg" ?>"></a>
 <a href=""><img data-placement="top" data-original-title="BlackBerry" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/bb.jpg" ?>"></a>
 <a href=""><img data-placement="top" data-original-title="Windows Phone" data-toggle="tooltip" class="img tool" src="<?php echo _get("webURL")."/www/lib/images/moviles/wp.jpg" ?>"></a>
@@ -257,6 +262,7 @@
 </div>
 
 <p style=" clear: both">&nbsp;</p>
+<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <!--<p style="font-style: italic;">* "Para ver las politicas de garantía de nuestros servicios consulte la siguiente <a href="">página</a>. Debe estar conciente que solo garantizamos los errores de diseño y programación que hayan sido establecidos por escrito previamente al inicio del proyecto."</p>-->
 <!--<br>
 <div class="caja-texto-completa">
