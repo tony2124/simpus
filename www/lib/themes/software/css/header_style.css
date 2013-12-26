@@ -1,0 +1,232 @@
+@import url(http://fonts.googleapis.com/css?family=Englebert&subset=latin,latin-ext);
+
+html, body {
+	background-color: #fff;
+}
+
+body {
+	padding-top: 90px;
+	/*font-family: 'arial'*/
+	font-size: 16px;
+}
+
+.clear{
+	clear: both;
+}
+
+.justify{
+	text-align: justify;
+}
+/************ ENCABEZADO *************/
+.header-simpus {
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	padding-top: 5px;
+	top: 0;
+	background: #fff;
+	z-index: 999999;
+}
+
+.menu_fixed_content {
+	margin: 0px auto;
+	width: 1050px;
+	height: 70px;
+}
+
+.header_logo {
+	width: 160px;
+	height: 70px;
+	margin-top: 0px;
+	background: url('images/logo_simpus.png') no-repeat;
+	float: left;
+}
+
+/************ MENU SUPERIOR ***********/
+.header_barra_menu_superior {
+	width: 520px;
+	margin-top: 0px;
+	float:left;
+}
+
+.header_barra_menu_superior ul {
+	margin-bottom:10px;
+	margin-top: 0px;
+	font-family: 'arial';
+}
+
+.header_barra_menu_superior ul li {
+	list-style: none;
+	font-size: 20px;
+	padding-top: 20px;
+	float:left;
+}
+
+.header_barra_menu_superior ul li a {
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: black;
+}
+
+.header_barra_menu_superior ul li a:hover {
+	color: #156786;
+}
+
+#activo_sup{
+	background: #156786;
+	color: #fff;
+}
+
+/************* BUSCAR ************/
+.barra_buscar {
+	width: 230px;
+	margin-top: 12px;
+	float: left;
+}
+
+.form_busqueda {
+    position: relative;
+    width: 220px;
+    height: 33px;
+    padding: 6px 0px 0px 10px;
+    margin: 0px 110px 0px 0px;
+}
+
+#search-q {
+    line-height: normal;
+    height: auto;
+    font-size: 12px;
+    margin: 0px;
+    padding: 6px 28px 5px 12px;
+    width: 140px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    transition: width 1s, margin-left 1s;
+    -webkit-transition: width 1s, margin-left 1s;
+}
+
+#search-q:focus{
+	color: rgb(153, 153, 153);
+    box-shadow:0 0 5px #007eff;
+    width: 160px;
+    margin-left: -10px;
+  	outline: none;
+}
+
+.texto{
+	font-size: 12px;
+	padding: 6px 28px 5px 12px;
+	min-width: 180px;
+	border-radius: 5px;
+	border: 1px solid rgb(224, 224, 224);
+}
+
+
+input:focus, textarea:focus{
+	color: #555;
+    box-shadow:0 0 5px #007eff;
+  	outline: none;
+}
+
+
+#search-submit {
+    position: relative;
+    left: -25px;
+    top: 3px;
+    background: url("images/buscar_icon.png") no-repeat;
+    border: 0px none;
+    height: 14px;
+    width: 14px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+/************* INICIO DE SESIÓN ************/
+
+.inicio_sesion{
+	width: 130px;
+	height: 50px;
+	float: left;
+	padding-left: 10px;
+	background: white;
+}
+.texto_inicio{
+	font-size: 15px;
+	float:left;
+	margin-top: 23px;
+	text-decoration: none;
+	color: #0066CC;
+	font-family: "arial";
+	line-height: 1.3em;
+}
+
+.candado_inicio{
+	margin-top: 25px;
+	margin-right: 5px;
+	float:left;
+}
+
+.flecha_inicio{
+	background: url('images/flecha_inicio_sesion.png');
+	width: 10px;
+	height: 10px;
+	margin-top: 28px;
+	margin-left: 5px;
+	float:left;
+}
+
+/****** BARRA DIVISORA AZUL ****************/
+.header_barra_divisor{
+	width: 100%;
+	height: 15px;
+	background: url('images/barra_azul_header.png');
+}
+
+/******** MENU PRINCIPAL :: INICIO :: *********/
+
+.menu_principal{
+	width: 100%;
+	height: 40px;
+	background: url('images/fondo_menu.png') repeat-x;
+}
+
+
+.mpi{
+	list-style: none;
+	margin-top: 0px;
+	float: left;
+	font-size: 16px;
+	font-family: "calibri";
+	line-height: 1.3em;
+}
+
+.mpia{
+	color: white;
+	text-decoration: none;
+	float: left;
+	padding: 7px 30px 12px;
+}
+
+.activo, .mpia:hover, .mpia:focus{
+	background: url('images/barra_menu_seleccionado.png');
+	text-decoration: none;
+	color: white;
+}
+
+.separador{
+	width: 4px;
+	height: 40px;
+	margin-top: 0px;
+	background: red;
+	float: left;
+	background: url('images/separador.png') no-repeat;
+}
+
+.cita{
+	font-style:italic; 
+	font-size: 10px;
+	font-family: 'arial';
+}

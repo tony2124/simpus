@@ -1,0 +1,263 @@
+
+.contenedor-pie{
+	width: 100%;
+	background: #fff;
+}
+
+.divisor-pie{
+	background: url('images/footer/linea_divisora.png');
+	height: 3px;
+}
+
+.menu-pie{
+	height: 35px;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.menu-pie ul{
+	padding-left: 0px;
+}
+
+.menu-pie ul li{
+	list-style: none;
+	float: left;
+	margin-right: 30px;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: "calibri"
+}
+
+.menu-pie ul li a{
+	text-decoration: none;
+	color: #666666;
+}
+
+.menu-pie ul li a:hover{
+	text-decoration: underline;
+	color: #156786;
+}
+
+.background-pie{
+	background: url('images/footer/bkg_footer_3.png');
+	height: 550px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.sub-pie{
+	width: 100%;
+	height: 90px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#lema{
+	color: #fff;
+	font-size: 15px;
+	font-family: "arial";
+	font-style: italic;
+	float: left;
+}
+
+.lenguaje{
+	float:right;
+	font-family: arial;
+	font-size: 15px;
+	color: #fff;
+}
+
+.lenguaje a{
+	color: #fff;
+	height: 15px;
+}
+
+.lenguaje span{
+	color: #fff;
+	float:left;
+}
+
+.bandera_usa{
+	width: 25px;
+	height: 15px;
+	float: left;
+	background: url('images/footer/USA.png');
+	margin-right: 10px;
+	margin-top: 7px;
+}
+
+.pie_pagina{
+	color: #fff;
+	font-size: 15px;
+	font-family: "arial";
+}
+
+.pie_pagina ul{
+	padding-left: 0; 
+	width: 1070px;
+	height: 20px;
+}
+
+.pie_pagina ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.pie_pagina ul li a{
+	
+	text-decoration: none;
+}
+
+.pie_pagina ul li a:hover{
+	color: #156786;
+	text-decoration: none;
+}
+
+.divisor-footer{
+	background: url('images/footer/linea_divisora.png');
+	height: 3px;
+	width: 1100px;
+	margin:  0 auto;
+}
+
+.divisor-footer-titulo{
+	background: url('images/footer/linea_divisora.png');
+	height: 3px;
+}
+
+footer{
+	color: #fff;
+	font-family: "arial";
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+.footer-info{
+	width: 280px;
+	height: 330px;
+	padding: 5px;
+	float: left;
+	margin-top: 15px;
+	margin-right: 50px;
+	line-height: 1.5em;
+}
+
+.titulo-footer{
+	font-family: 'Englebert', sans-serif;
+	font-size: 25px;
+	color: #999999;
+	font-weight: 700;
+	margin: 0 auto;
+	height: 10px;
+}
+
+.footer-info p{
+	font-family: "calibri";
+	font-size: 15px;
+	color: #CCCCCC;
+	text-align: justify;
+}
+
+.footer-info a{
+	font-family: "calibri";
+	font-size: 15px;
+	color: #0066CC;
+	text-align: justify;
+}
+
+.ver{
+	float:right;
+}
+
+.footer-info ul{
+	list-style-type: none;
+	padding-left: 0; 
+}
+
+.footer-info ul li{
+	background: url(images/footer/check_mark.png) left center no-repeat;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-family: "calibri";
+	text-align: justify;
+	color: #cccccc;
+}
+
+.vineta-check{
+	background: url('images/footer/check_mark.png');
+	width: 24px;
+	height: 24px;
+}
+
+.titulo-direccion{
+	font-family: "arial";
+	font-size: 15px;
+	color: #fff;
+	font-weight: 700;
+	float: left;
+}
+
+.contacto-direccion{
+	color: #cccccc;
+	margin-left: 25px;
+}
+
+.direccion-icon{
+	background: url('images/footer/ubicacion_contacto.png') no-repeat center;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.telefono-icon{
+	background: url('images/footer/telefono_contacto.png') no-repeat center;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.correo-icon{
+	background: url('images/footer/correo_contacto.png') no-repeat;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.redes-sociales{
+	float: left;
+	width: 55px;
+	height: 150px;
+	margin-left: -25px;
+	margin-top: 50px;
+}
+
+.rs{
+	width: 53px;
+	height: 56px;
+	transition: width .3s, height .3s, transform .3s, -webkit-transform .3s;
+	-webkit-transition: width .3s, height .3s, -webkit-transform .3s;
+	
+}
+
+.rs:hover{
+	width: 63px;
+	height: 66px;
+	transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+
+}
+
+/*********** TO TOP ************/
+.scrollup{
+    width:100px;
+    height:50px;
+    opacity:0.3;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    display:none;
+    text-indent:0px;
+    background: url('images/icon_top.png') no-repeat;
+}

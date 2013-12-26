@@ -1,0 +1,71 @@
+
+.anuncio{
+	width: 300px; 
+	float: left; 
+	margin: 15px;
+	background: #fff;
+}
+
+.up{
+	padding: 10px;
+}
+
+.separador-not{
+	float:left; 
+	width:1px; 
+	background: #ddd; 
+	margin-top: 50px; 
+	height: 200px
+}
+
+.tit{
+	color: #B2070F;
+	font-size: 20px;
+	text-shadow: 2px 2px #eee;
+}
+
+.cortina{
+	padding: 5px;
+	width: 230px;
+	background: #fff; /* #8BDEFF;*/
+	border: 1px solid #003BA6;
+	overflow: hidden;
+	height: 25px;
+	float: left;
+	margin-right: 15px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.cortina p.etiqueta
+{
+	font-weight: 700;
+	text-shadow: 1px 1px #eee;
+	float:left;
+}
+
+.cortina:hover{
+	height: 200px;
+}
+
+.texto-cortina{
+	padding: 10px
+}
+
+.img{
+	float: left; 
+	margin-right: 30px;
+	width: 80px;
+	height: 96px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.img:hover{
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+}

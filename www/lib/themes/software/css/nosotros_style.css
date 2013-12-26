@@ -1,0 +1,133 @@
+.banner{
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto; 
+}
+
+.sombra{
+	background: url('images/banner/sombra.png');
+	width: 1000px;
+	height: 12px;
+	margin-top: -60px;
+}
+
+hr{
+	display: block; height: 1px;
+    border: 0; border-top: 1px solid #0093E8;
+    margin: 1em 0; padding: 0;
+}
+
+
+.titulo-valores{
+	font-family: 'arial';
+	font-size: 17px;
+	color: #990000;
+}
+
+.valores li{
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.img-leng{
+	padding: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	width: 152px;
+	height: 152px;
+	transition: width 0.1s, height 0.1s, margin-left 0.1s, margin-top 0.1s, transform 0.1s;
+	-webkit-transition: width 0.1s, height 0.1s, margin-left 0.1s, margin-top 0.1s, -webkit-transform 0.1s;
+}
+
+.img-leng:hover{
+	opacity: 0.8;
+	width: 160px;
+	height: 160px;
+	margin-top: -4px;
+	margin-right: -4px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+}
+
+.division-puntos{
+	padding: 5px;
+	width: 100%;
+	background: url('images/linea.png') repeat-x center;
+	text-align: center;
+}
+
+.titulo{
+	background: #fff;
+	font-family: 'Englebert', sans-serif;
+	font-size: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.titulo-desarrollo-movil{
+	background: #fff;
+	font-family: 'Englebert', sans-serif;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+/***************************** CONTACTO *****************************/
+
+.titulo-formulario{
+	color: #000066;
+	margin-top: -30px;
+
+}
+
+.titulo-contacto{
+	font-size: 12px;
+	font-family: 'arial';
+	font-weight: 700;
+}
+
+.formulario-contacto{
+	min-height: 400px;
+	float: right;
+}
+
+input.input-contacto{
+	width: 300px;
+	height: 20px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding: 6px 28px 5px 12px;
+	border: 1px solid rgb(224, 224, 224);
+}
+
+textarea.input-contacto{
+	width: 328px;
+	height: 20px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding: 6px 1px 5px 12px;
+	border: 1px solid rgb(224, 224, 224);
+}
+
+input.border-left, textarea.border-left{
+	border-left-color: #156786;
+	border-left-style: thin;
+	border-left-width: 5px;
+}
+
+.comercial{
+	width: 450px;
+	height: 235px;
+	margin-right: 30px;
+	float: left;
+	background: linear-gradient(rgb(255, 255, 255), rgb(232, 232, 232)) repeat scroll 0% 0% transparent;
+}
+
+.titulo-comercial{
+	font-size: 25px;
+	font-family: 'arial';
+	line-height: 40px;
+}

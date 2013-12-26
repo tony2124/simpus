@@ -1,0 +1,63 @@
+.servicios-desarrollo{
+	padding: 10px;
+	float: left; 
+	width: 320px; 
+	height: 300px; 
+	margin-right: 0px	
+}
+
+.titulo-imagen{
+	position:relative; 
+	width: 70px; 
+	height: 70px; 
+	left: calc(50% - 30px)
+}
+
+.border-texto{
+	padding: 10px; 
+	border: #eee solid 1px; 
+	margin-top: -50px;
+}
+
+.border-texto div{
+	 background: linear-gradient(#EEEEEE, white); 
+	 min-height: 250px; 
+	 padding: 25px 10px 10px 10px; 
+	 text-align: center;
+}
+
+.border-texto div:hover{
+	 background: linear-gradient(#DDDDDD, white); 
+}
+
+
+.numero{
+	color: white;
+	float: left;
+	width: 71px;
+	height: 51px;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	background: url(../../../images/desarrollo/numero.png);
+}
+
+.ventajas{
+	list-style-type: none;
+	margin-right: 100px
+}
+
+.ventajas li{
+	background: url(../../../images/desarrollo/paloma-verde.png) left center no-repeat;
+	padding-left: 50px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.img-shadow:hover{
+	 box-shadow:0 0 5px #007eff;
+	 outline: none;
+	 border: 1px #007eff solid;
+}
