@@ -19,16 +19,50 @@
 <div class="sombra"></div>
 <br>
 <br>
-
-<div class="caja-texto-completa">
-	<div class="titulo-caja-texto">
-		Reingeniería
+<div style="width: 450px; float: left">
+	<div class="caja-texto-completa">
+		<div class="titulo-caja-texto">
+			Reingeniería de software
+		</div>
 	</div>
-</div>
-<hr class="clear">
-<img src="<?php print _get("webURL") ?>www/lib/images/desarrollo/reconstruccion.png">
+	<hr class="clear">
+	<ul style="font-family: calibri">
 
+		<li>Tu giro de negocio cambió y tu sistema requiere ampliación.</li>
+		<li>Tu sistema se ha hecho lento a lo largo del tiempo.</li>
+		<li>El sistema que tienes es insuficiente para tus procesos administrativos.</li>
+		<li>Ocurren problemas inesperados en tu sistema.</li>
+		<li>Necesitas el rediseño de tu base de datos.</li>
+		<li>Necesitas que tu sistema te brinde estadísticas sobre tus ventas.</li>
+		<li>Tu sistema no realiza respaldos de la base de datos</li>
+		<li>Quieres que tu sistema envíe reportes</li>
+	</ul>
+	<br>
+</div>
+<div style="width: 450px; float: right">
+	<div class="caja-texto-completa">
+		<div class="titulo-caja-texto">
+			Migración de sistemas
+		</div>
+	</div>
+	<hr class="clear">
+	<p>Podemos re-crear tu sistema de información utilizando un lenguaje de programación más adecuado y actual.</p>
+	<ul>
+		<li>La apariencia visual del sistema es muy anticuada.</li>
+		<li>El motor de base de datos no es el adecuado para tu sistema.</li>
+		<li>Tu sistema requiere estar en red. </li>
+	</ul>
+	<br>
+</div>
 <div class="clear"></div>
+<br>
+<p>Si tienes algunos de estos problemas te podemos ayudar. En SIMPUS contacmos con todos los medios y herramientas para depurar tu sistema de información, que haya sido creado en cualquier lenguaje de programación (C, C++, Java, VB 6, etc,...), e incluso podemos rediseñarlo con otro lenguaje más nuevo.</p>
+<p>&nbsp;</p>
+<img src="<?php print _get("webURL") ?>www/lib/images/desarrollo/reconstruccion.png">
+<p>&nbsp;</p>
+<a href="<?php print _get("webURL") ?>"></a>
+<div class="clear"></div>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="caja-texto-completa">
 	<div class="titulo-caja-texto">

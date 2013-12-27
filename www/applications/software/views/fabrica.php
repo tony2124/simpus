@@ -21,65 +21,6 @@
 <br>
 <div class="caja-texto-completa">
 	<div class="titulo-caja-texto">
-		Servicios de desarrollo de software
-	</div>
-</div>
-<hr class="clear">
-<a style="color: black" href="<?php print _get("webURL").'software/desarrollo/fabrica' ?>">
-	<div class="servicios-desarrollo">
-		<div class="titulo-imagen">
-			<img src="<?php print _get("webURL").'www/lib/images/desarrollo/alamedida.png' ?>">
-		</div>
-		<div class="border-texto">
-			<div>
-				<h3>
-					<strong>Software a la medida</strong>
-				</h3>
-				<p>Sistemas a medida para empresas que ven limitadas las capacidades 
-					por no contar con un sistema de gestión eficiente. Nos ocupamos de 
-					llevar adelante su proyecto desde el relevamiento hasta 
-	               la implementación final.</p>
-			</div>
-		</div>
-	</div>
-</a>
-<a style="color: black" href="<?php print _get("webURL").'software/desarrollo/web' ?>">
-	<div class="servicios-desarrollo">
-		<div class="titulo-imagen">
-			<img src="<?php print _get("webURL").'www/lib/images/desarrollo/sitiosweb.png' ?>">
-		</div>
-		<div class="border-texto">
-			<div>
-				<h3>
-					<strong>Sitios web</strong>
-				</h3>
-				<p>Todo el diseño y funcionalidad que su empresa neceista para tener éxito en internet.
-				Creamos sitios y portales inteligentes, autoadministrables, responsivos y sumamente atractivos. </p>
-			</div>
-		</div>
-	</div>
-</a>
-<a style="color: black" href="<?php print _get("webURL").'software/desarrollo/migracion' ?>">
-	<div class="servicios-desarrollo">
-		<div class="titulo-imagen">
-			<img src="<?php print _get("webURL").'www/lib/images/desarrollo/reingenieria.png' ?>">
-		</div>
-		<div class="border-texto">
-			<div>
-				<h3>
-					<strong>Reingeniería de Software</strong>
-				</h3>
-				<p>Por medio de una reingeniería se pueden reconstruir sistemas existentes, 
-                     mejorando sus procesos y actualizando su plataforma. Migración de aplicaciones 
-                     y Bases de Datos.</p>
-			</div>
-		</div>
-	</div>
-</a>
-<p class="clear">&nbsp;</p>
-<p>&nbsp;</p>
-<div class="caja-texto-completa">
-	<div class="titulo-caja-texto">
 		Malos síntomas de una empresa
 	</div>
 </div>
@@ -141,7 +82,6 @@
 <div class="clear"></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <div class="caja-texto-completa">
 	<div class="titulo-caja-texto">
 		Proceso de desarrollo
@@ -198,7 +138,67 @@
 	<p class="justify">
 	Para garantizar el correcto funcionamiento del sistema, nos mantenemos al pendiente.
 	</p>
-</div>	
+</div>
+<div class="clear"></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="caja-texto-completa">
+	<div class="titulo-caja-texto">
+		Servicios de desarrollo de software
+	</div>
+</div>
+<hr class="clear">
+<a style="color: black" href="<?php print _get("webURL").'software/desarrollo/fabrica' ?>">
+	<div class="servicios-desarrollo">
+		<div class="titulo-imagen">
+			<img src="<?php print _get("webURL").'www/lib/images/desarrollo/alamedida.png' ?>">
+		</div>
+		<div class="border-texto">
+			<div>
+				<h3>
+					<strong>Software a la medida</strong>
+				</h3>
+				<p>Sistemas a medida para empresas que ven limitadas las capacidades 
+					por no contar con un sistema de gestión eficiente. Nos ocupamos de 
+					llevar adelante su proyecto desde el relevamiento hasta 
+	               la implementación final.</p>
+			</div>
+		</div>
+	</div>
+</a>
+<a style="color: black" href="<?php print _get("webURL").'software/desarrollo/web' ?>">
+	<div class="servicios-desarrollo">
+		<div class="titulo-imagen">
+			<img src="<?php print _get("webURL").'www/lib/images/desarrollo/sitiosweb.png' ?>">
+		</div>
+		<div class="border-texto">
+			<div>
+				<h3>
+					<strong>Sitios web</strong>
+				</h3>
+				<p>Todo el diseño y funcionalidad que su empresa neceista para tener éxito en internet.
+				Creamos sitios y portales inteligentes, autoadministrables, responsivos y sumamente atractivos. </p>
+			</div>
+		</div>
+	</div>
+</a>
+<a style="color: black" href="<?php print _get("webURL").'software/desarrollo/migracion' ?>">
+	<div class="servicios-desarrollo">
+		<div class="titulo-imagen">
+			<img src="<?php print _get("webURL").'www/lib/images/desarrollo/reingenieria.png' ?>">
+		</div>
+		<div class="border-texto">
+			<div>
+				<h3>
+					<strong>Reingeniería de Software</strong>
+				</h3>
+				<p>Por medio de una reingeniería se pueden reconstruir sistemas existentes, 
+                     mejorando sus procesos y actualizando su plataforma. Migración de aplicaciones 
+                     y Bases de Datos.</p>
+			</div>
+		</div>
+	</div>
+</a>
 <div class="clear"></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>

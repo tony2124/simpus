@@ -20,13 +20,12 @@
 </div>
 <div class="sombra"></div>
 <br>
-<br>
 <hr style="clear:both">
 <img style="float: left" src="<?php echo _get("webURL")."/www/lib/images/moviles/movil1.jpg" ?>">
 <div class="nota">
 	<p class="titulo_nota">Tu idea hecha realidad</p>
 	<p class="justify" style="margin-bottom: 20px;">Todas las ideas son buenas, ¿quieres probar que la tuya tendrá éxito? Nosotros te podemos ayudar a traerla a la realidad, platiquemos sobre ella y denos la oportunidad de ser parte de ella.</p>
-	<button onclick="" class="btn btn-danger">Quiero traer mi idea a la realidad</button>
+	<a href="<?php print _get("webURL") ?>software/contacto" class="btn btn-danger">Quiero traer mi idea a la realidad</a>
 </div>
 <div class="nota" style="float: right">
 	<p class="titulo_nota">Desarrollamos para las mejores plataformas</p>

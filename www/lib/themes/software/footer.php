@@ -18,7 +18,7 @@
 	  	  	<!--<li><a href="#">Dominios de internet</a></li>-->
 	  	  	<li><a href="<?php print _get("webURL")."software/desarrollo" ?>">Desarrollo de software</a></li>
 	  	  	<li><a href="<?php print _get("webURL")."software/moviles" ?>">Aplicaciones móviles</a></li>
-	  	  	<li><a href="#">Tutoriales</a></li>
+	  	  	<!-- <li><a href="#">Tutoriales</a></li> -->
 	  	  	<!--<li><a href="#">Asistencia técnica</a></li>-->
 	  	  </ul>	
 	  	</div>
@@ -92,7 +92,7 @@
 	  		<div class="sub-pie">
 		  		<div style="margin: 0 auto; width: 1070px; height: 20px">
 		  			<div style="width:1070px; height: 30px; margin: 0 auto">
-		  				<span id="lema">"Comprometidos con la calidad de tu empresa"</span>
+		  				<!--<span id="lema">"Comprometidos con la calidad de tu empresa"</span>-->
 		  				<div class="lenguaje">
 		  					<a href="#">
 		  						<div class="bandera_usa"></div>
@@ -104,7 +104,7 @@
 	  				<div class="pie_pagina">
 						<ul>
 							<li><a href="<?php print _get('webURL') ?>software/acerca">Acerca de simpus</a> |</li> 
-							<li><a href="<?php print _get('webURL') ?>wordpress">Blog de simpus</a> | </li>
+							<!--<li><a href="<?php print _get('webURL') ?>wordpress">Blog de simpus</a> | </li>-->
 							<!--<li><a href="#">Preguntas frecuentes</a> | </li>-->
 							<!--<li><a href="#">Empleo</a> | </li>-->
 							<li><a href="<?php print _get("webURL")."software/politicas" ?>">Políticas de privacidad</a> | </li>

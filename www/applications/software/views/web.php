@@ -15,13 +15,66 @@
 <div class="banner">
 	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_fabrica.jpg"  ?>"></div>
 	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_migracion.jpg"  ?>"></div>
-	<div style="background: white" data-src=""><iframe id="html56aee7d3d33a11a54543875209224b25d124f80c345" src="<?php print _get("webURL").'www/lib/images/' ?>bannerhtml5/bannerhtml5.html" width="100%" height="300" frameborder="0" scrolling="no" allowTransparency="true"></iframe></div>
+	<!--<div style="background: white" data-src=""><iframe id="html56aee7d3d33a11a54543875209224b25d124f80c345" src="<?php print _get("webURL").'www/lib/images/' ?>bannerhtml5/bannerhtml5.html" width="100%" height="300" frameborder="0" scrolling="no" allowTransparency="true"></iframe></div>-->
 </div>
 <div class="sombra"></div>
+<!--<script>if (typeof em5 === 'undefined'){var em5 = window.addEventListener ? "addEventListener" : "attachEvent";var er5 = window[em5];var me5 = em5 == "attachEvent" ? "onmessage" : "message";er5(me5,function (e) {var s5= e.data;if (s5.substring(0,10) == "changeSize"){document.getElementById(s5.substring(s5.indexOf("html5maker")+10)).style.height=s5.substring(10, s5.indexOf("html5maker"));}},false);}</script>-->
 <br>
 <br>
-<script>if (typeof em5 === 'undefined'){var em5 = window.addEventListener ? "addEventListener" : "attachEvent";var er5 = window[em5];var me5 = em5 == "attachEvent" ? "onmessage" : "message";er5(me5,function (e) {var s5= e.data;if (s5.substring(0,10) == "changeSize"){document.getElementById(s5.substring(s5.indexOf("html5maker")+10)).style.height=s5.substring(10, s5.indexOf("html5maker"));}},false);}</script>
-
+<div class="caja-texto-completa">
+	<div class="titulo-caja-texto">
+		Crece en Internet 
+	</div>
+</div>
+<hr class="clear">
+<div style="float: left; width: 500px; margin-right: 10px; text-align: justify">
+	<p>Muchas empresas estan comenzado a tener mayores ganancias y un mejor prestigio al tener en <span class="subrayar">Internet</span> información sobre sus productos y servicios.</p>
+	<p>Con los servicios de Internet de Simpus usted puede dar a conocer su negocio en más lugares, llegar a nuevos clientes. Desde tener un <span class="subrayar">sitio informativo</span> de su empresa hasta tener una <span class="subrayar">tienda en línea</span>. Conozca cada uno de nuestros servicios y escoga el que más se ajuste a sus necesidades. </p>
+</div>
+<img style="float: right" src="<?php print _get("webURL").'www/lib/images/desarrollo/internet.jpg' ?>">
+<br>
+<div class="caja-texto-completa">
+	<div class="titulo-caja-texto">
+		Las características de nuestros sitios web 
+	</div>
+</div>
+<hr class="clear">
+<div style="float: left; width: 300px; min-height: 300px; padding: 10px; text-align: center">
+	<h3><strong>Diseño</strong></h3>
+	<p>Páginas atractivas de tu mercado, funcionales e intuitivas</p>
+	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/disenio.jpg' ?>" >
+</div>
+<div style="float: left; margin-left: 40px; width: 300px; min-height: 300px; padding: 10px; text-align: center">
+	<h3><strong>Tecnología</strong></h3>
+	<p>HTML5, PHP, JQUERY y otras tecnologías de la web actual.</p>
+	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/tecnologia.jpg' ?>">	
+</div>
+<div style="float: right; width: 300px; min-height: 300px; padding: 10px; text-align: center">
+	<h3><strong>Dinamismo</strong></h3>
+	<p>Tu mismo podrás agregar nuevos contenidos al sitio.</p>
+	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/dinamismo.jpg' ?>">	
+</div>
+<div class="clear"></div>
+<p>&nbsp;</p>
+<div style="float: left;  width: 300px; min-height: 300px; padding: 10px; text-align: center">
+	<h3><strong>Optimización</strong></h3>
+	<p>Para buscadores como Google, Bing, Yahoo, ...</p>
+	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/optimizacion.jpg' ?>">
+</div>
+<div style="float: left; margin-left: 40px;  width: 300px; min-height: 300px; padding: 10px; text-align: center">
+	<h3><strong>Compatibilidad</strong></h3>
+	<p>Celulares, tablets y otros dispositivos móviles.</p>
+	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/compatibilidad.jpg' ?>">	
+</div>
+<div style="float: right; width: 300px; min-height: 300px; padding: 10px; text-align: center">
+	<h3><strong>Sincronización</strong></h3>
+	<p>Con facebook, twitter, y todas las redes sociales.</p>
+	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/sincronizacion.jpg' ?>">	
+</div>
+<div class="clear"></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <div class="caja-texto-completa">
 	<div class="titulo-caja-texto">
 		Servicios de desarrollo de software
@@ -79,63 +132,8 @@
 		</div>
 	</div>
 </a>
-
 <div class="clear"></div>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<div class="caja-texto-completa">
-	<div class="titulo-caja-texto">
-		Crece en Internet 
-	</div>
-</div>
-<hr class="clear">
-<div style="float: left; width: 500px; margin-right: 10px; text-align: justify">
-	<p>Muchas empresas estan comenzado a tener mayores ganancias y un mejor prestigio al tener en <span class="subrayar">Internet</span> información sobre sus productos y servicios.</p>
-	<p>Con los servicios de Internet de Simpus usted puede dar a conocer su negocio en más lugares, llegar a nuevos clientes. Desde tener un <span class="subrayar">sitio informativo</span> de su empresa hasta tener una <span class="subrayar">tienda en línea</span>. Conozca cada uno de nuestros servicios y escoga el que más se ajuste a sus necesidades. </p>
-</div>
-<img style="float: right" src="<?php print _get("webURL").'www/lib/images/desarrollo/internet.jpg' ?>">
-<div class="clear"></div>
-<p>&nbsp;</p>
-<div class="caja-texto-completa">
-	<div class="titulo-caja-texto">
-		Las características de nuestros sitios web 
-	</div>
-</div>
-<hr class="clear">
-<div style="float: left; width: 300px; min-height: 300px; padding: 10px; text-align: center">
-	<h3><strong>Diseño</strong></h3>
-	<p>Páginas atractivas de tu mercado, funcionales e intuitivas</p>
-	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/disenio.jpg' ?>" >
-</div>
-<div style="float: left; margin-left: 40px; width: 300px; min-height: 300px; padding: 10px; text-align: center">
-	<h3><strong>Tecnología</strong></h3>
-	<p>HTML5, PHP, JQUERY y otras tecnologías de la web actual.</p>
-	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/tecnologia.jpg' ?>">	
-</div>
-<div style="float: right; width: 300px; min-height: 300px; padding: 10px; text-align: center">
-	<h3><strong>Dinamismo</strong></h3>
-	<p>Tu mismo podrás agregar nuevos contenidos al sitio.</p>
-	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/dinamismo.jpg' ?>">	
-</div>
-<div class="clear"></div>
-<p>&nbsp;</p>
-<div style="float: left;  width: 300px; min-height: 300px; padding: 10px; text-align: center">
-	<h3><strong>Optimización</strong></h3>
-	<p>Para buscadores como Google, Bing, Yahoo, ...</p>
-	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/optimizacion.jpg' ?>">
-</div>
-<div style="float: left; margin-left: 40px;  width: 300px; min-height: 300px; padding: 10px; text-align: center">
-	<h3><strong>Compatibilidad</strong></h3>
-	<p>Celulares, tablets y otros dispositivos móviles.</p>
-	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/compatibilidad.jpg' ?>">	
-</div>
-<div style="float: right; width: 300px; min-height: 300px; padding: 10px; text-align: center">
-	<h3><strong>Sincronización</strong></h3>
-	<p>Con facebook, twitter, y todas las redes sociales.</p>
-	<img src="<?php print _get("webURL").'www/lib/images/desarrollo/sincronizacion.jpg' ?>">	
-</div>
-<div class="clear"></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="caja-texto-completa">

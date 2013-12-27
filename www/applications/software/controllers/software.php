@@ -31,9 +31,9 @@ class Software_Controller extends ZP_Load
 	public function desarrollo($vista = NULL){
 		if($vista == NULL || strcmp($vista,"fabrica") == 0)
 			$vars['view'] = $this->view("fabrica", true);
-		else if($vista == NULL || strcmp($vista,"web") == 0)
+		else if( strcmp($vista,"web") == 0)
 			$vars['view'] = $this->view("web", true);
-		if($vista == NULL || strcmp($vista,"migracion") == 0)
+		if(strcmp($vista,"migracion") == 0)
 			$vars['view'] = $this->view("migracion", true);
 		$vars['menu'] = 2;
 		$this->render("content", $vars);

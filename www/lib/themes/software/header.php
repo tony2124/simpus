@@ -47,8 +47,8 @@
 		    	<ul>
 		    		<li><a id="activo_sup" href="<?php print _get('webURL') ?>">Software</a></li>
 		     		<!--<li><a href="#">Dominios</a></li>-->
-		      		<li><a href="<?php print _get('webURL') ?>wordpress">Blog</a></li>
-		      		<li><a href="#">Noticias</a></li>
+		      		<!--<li><a href="<?php print _get('webURL') ?>wordpress">Blog</a></li>
+		      		<li><a href="#">Noticias</a></li>-->
 		      	</ul>
 		    </div>
 
@@ -111,7 +111,7 @@
 				    	</li>
 				    	<li><a href="<?php print _get("webURL").'software/desarrollo/migracion' ?>">
 				    		<span class="glyphicon glyphicon-refresh"></span>&nbsp;&nbsp;&nbsp;
-				    		Migración de sistemas</a>
+				    		Reingeniería de sistemas</a>
 				    	</li>
 				  	</ul>
 					<div class="separador"></div>
@@ -130,7 +130,7 @@
     			</li>-->
 
     			<!-- TUTORIALES -->
-    			<li class="dropdown mpi">
+    			<!--<li class="dropdown mpi">
     				<a data-toggle="dropdown" class="mpia <?php if ($menu == 5) print "activo" ?>" href="#">Tutoriales&nbsp;&nbsp;<span class="caret"></span></a>
     				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
     					<li class="dropdown-header">PROGRAMACIÓN</li>
@@ -144,7 +144,7 @@
 				  	</ul>
     				<div class="separador"></div>
     			</li>
-
+				-->
     			<!-- CONTACTO -->
     			<li class="mpi">
     				<a class="mpia <?php if ($menu == 6) print "activo" ?>" href="<?php print _get('webURL').'software/contacto' ?>">Contacto</a>
