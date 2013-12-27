@@ -15,7 +15,7 @@
 
 </script>	
 <div class="banner">
-	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_movil.jpg"  ?>"></div>
+	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_movil.png"  ?>"></div>
 	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_descarga_agenda.jpg"  ?>"></div>
 </div>
 <div class="sombra"></div>
