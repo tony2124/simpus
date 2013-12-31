@@ -13,8 +13,8 @@
 	});
 </script>	
 <div class="banner">
-	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_fabrica.jpg"  ?>"></div>
-	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_migracion.jpg"  ?>"></div>
+	<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_fabrica.png"  ?>"></div>
+	<!--<div data-link="#" data-src="<?php echo _get("webURL")."/www/lib/images/banners/banner_migracion.jpg"  ?>"></div>-->
 	<!--<div style="background: white" data-src=""><iframe id="html56aee7d3d33a11a54543875209224b25d124f80c345" src="<?php print _get("webURL").'www/lib/images/' ?>bannerhtml5/bannerhtml5.html" width="100%" height="300" frameborder="0" scrolling="no" allowTransparency="true"></iframe></div>-->
 </div>
 <div class="sombra"></div>
